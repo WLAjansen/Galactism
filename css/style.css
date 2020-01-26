@@ -4,7 +4,7 @@ html, body, h1, p, form, label {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .iphone-design {
@@ -87,6 +87,12 @@ label {
   position: absolute;
   top: 5%;
   left: 7%;
+}
+
+.main-header-patients {
+  position: absolute;
+  top: 5%;
+  left: 4%;
 }
 
 
