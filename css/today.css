@@ -2,13 +2,51 @@ html, body {
   color: white !important;
 }
 
+.iphone-design {
+  height: 900px;
+}
+
+p {
+  margin-bottom: 0.1rem !important;
+}
+
+.date-header p {
+  margin-bottom: 0.1rem !important;
+  color: grey !important;
+  font-size: 10px !important;
+}
+
 img {
-  
+
+}
+
+.main-header-patients {
+  top: 3.9% !important;
+}
+
+.card-img-overlay p {
+  position: absolute;
+  top: 30%;
+}
+
+.card-img-overlay h5 {
+  position: absolute;
+  top: 40%;
 }
 
 .card {
   position: absolute;
   top: 20%;
-  left: 20%;
-  width: 70%;
+  left: 12%;
+  width: 17.8em;
+}
+
+.two {
+  top: 24%;
+}
+
+button {
+  position: absolute;
+  top: 5.5%;
+  left: 25.5%;
 }
