@@ -21,22 +21,22 @@ h1 {
 
 .main-header {
   position: absolute;
-  top: 15%;
-  left: 16%;
+  top: 30%;
+  left: 18%;
 }
 
 .main-button {
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 18%;
   width: 241px;
 }
 
 .main-button button {
-background-color: transparent; /* Green */
- border: 1px solid red;
+background-color: white; /* Green */
+ border: 1px solid white;
  border-radius: 37px;
- color: grey;
+ color: black;
  padding: 10px 40px;
  text-align: center;
  text-decoration: none;
@@ -44,6 +44,14 @@ background-color: transparent; /* Green */
  font-size: 12px;
  margin: 4px 2px;
  cursor: pointer;
+ width: 241px;
+}
+
+.btn-home-two {
+  background-color: transparent !important;
+  color: white !important;
+  padding-bottom: 20px;
+  width: 241px;
 }
 
 /* Login */
@@ -53,8 +61,8 @@ label, input {
 }
 
 label {
-  margin-bottom: 5px;
-  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .main-form {
@@ -62,9 +70,8 @@ label {
   font-weight: 300;
   color: #929191;
   top: 25%;
-  column-gap: 10px;
   left: 16%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .main-form input {
@@ -87,6 +94,8 @@ label {
   padding: 10px 95px;
   font-family: "Montserrat";
   border-color: #929191;
+  background-color: transparent;
+  color: grey;
 }
 
 .main-header-login {
