@@ -1,52 +1,97 @@
 html, body {
   color: white !important;
+  background-color: black;
+}
+
+h1 {
+margin: 0;
 }
 
 .iphone-design {
-  height: 900px;
+  height: 1100px;
+  width: 375px;
 }
 
 p {
-  margin-bottom: 0.1rem !important;
+
 }
 
-.date-header p {
-  margin-bottom: 0.1rem !important;
-  color: grey !important;
-  font-size: 10px !important;
+.date-header {
+  margin-bottom: -1rem;
+  color: grey;
+  font-size: 12px;
 }
 
 img {
+ width: 317px;
+ height: 301px;
+}
 
+.card-img {
+  border-radius: 30px;
 }
 
 .main-header-patients {
-  top: 3.9% !important;
+  top: 3.3%;
+  left: 5%;
 }
 
 .card-img-overlay p {
   position: absolute;
-  top: 30%;
+  top: 72%;
+  left: 5%;
+  font-weight: 700;
 }
 
 .card-img-overlay h5 {
   position: absolute;
-  top: 40%;
+  top: 68%;
+  left: 5%;
+  font-size: 30px;
 }
 
 .card {
   position: absolute;
-  top: 20%;
-  left: 12%;
+  top: 14%;
+  left: 7.5%;
   width: 17.8em;
 }
 
 .two {
-  top: 24%;
+  top: 43%;
+}
+
+.three {
+  top: 105%;
+  left: 0%;
+}
+
+.btn-low-right {
+  margin-top: 82%;
+  border-color: black;
+  color: black;
+}
+
+.close-btn img{
+  position: absolute;
+  top: 2%;
+right: 2%;
+width: 50px;
+height: 50px;
 }
 
 button {
   position: absolute;
-  top: 5.5%;
-  left: 25.5%;
+  top: 7.2%;
+  left: 70%;
+  background-color: transparent; /* Green */
+   border: 1px solid red;
+   border-radius: 37px;
+   color: grey;
+   padding: 8px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12;
+   cursor: pointer;
 }

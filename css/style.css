@@ -1,29 +1,35 @@
-html, body, h1, p, form, label {
+html, body, h1, p, button, form, label {
   font-family: "Montserrat";
   color: white;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .iphone-design {
   width: 375px;
   height: 667px;
   background-color: black;
+  position: absolute;
 }
 
 .main-header {
   position: absolute;
   top: 15%;
-  left: 7%;
-  font-size: 20px;
+  left: 16%;
 }
 
 .main-button {
   position: absolute;
-  top: 33%;
-  left: 5.6%;
+  top: 85%;
+  left: 18%;
+  width: 241px;
 }
 
 .main-button button {
@@ -31,11 +37,11 @@ background-color: transparent; /* Green */
  border: 1px solid red;
  border-radius: 37px;
  color: grey;
- padding: 10px 50px;
+ padding: 10px 40px;
  text-align: center;
  text-decoration: none;
  display: inline-block;
- font-size: 16px;
+ font-size: 12px;
  margin: 4px 2px;
  cursor: pointer;
 }
@@ -55,9 +61,9 @@ label {
   position: absolute;
   font-weight: 300;
   color: #929191;
-  top: 12%;
+  top: 25%;
   column-gap: 10px;
-  left: 7%;
+  left: 16%;
   font-size: 20px;
 }
 
@@ -73,12 +79,12 @@ label {
 
 .login {
   position: absolute;
-  top: 30%;
-  left: 7%;
+  top: 80%;
+  left: 19%;
 }
 
 .login button {
-  padding: 10px 100px;
+  padding: 10px 95px;
   font-family: "Montserrat";
   border-color: #929191;
 }
@@ -86,13 +92,13 @@ label {
 .main-header-login {
   position: absolute;
   top: 5%;
-  left: 7%;
+  left: 16%;
 }
 
 .main-header-patients {
   position: absolute;
   top: 5%;
-  left: 4%;
+  left: 5%;
 }
 
 
