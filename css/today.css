@@ -1,53 +1,63 @@
-html, body {
-  color: white !important;
+html, body, {
+  color: black !important;
   background-color: black;
 }
 
 h1 {
 margin: 0;
+color: black;
 }
 
 .iphone-design {
   height: 1100px;
   width: 375px;
+  background-color: white;
 }
 
-p {
-
+a {
+ text-decoration: none;
 }
 
 .date-header {
-  margin-bottom: -1rem;
   color: grey;
   font-size: 12px;
 }
 
 img {
  width: 317px;
- height: 301px;
+ height: 200px;
+ box-shadow:
+ 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+ 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 0 12.5px 10px rgba(0, 0, 0, 0.06),
+ 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+ 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+ 0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .card-img {
   border-radius: 30px;
+      object-fit: cover;
 }
 
 .main-header-patients {
-  top: 3.3%;
+  top: 3%;
   left: 5%;
 }
 
 .card-img-overlay p {
   position: absolute;
-  top: 72%;
+  top: 48%;
   left: 5%;
   font-weight: 700;
 }
 
 .card-img-overlay h5 {
   position: absolute;
-  top: 68%;
+  top: 50%;
   left: 5%;
   font-size: 30px;
+  color: white !important;
 }
 
 .card {
@@ -58,18 +68,19 @@ img {
 }
 
 .two {
-  top: 43%;
+  top: 35%;
 }
 
 .three {
-  top: 105%;
+  top: 115%;
   left: 0%;
 }
 
 .btn-low-right {
-  margin-top: 82%;
-  border-color: black;
+  margin-top: 49%;
+  border-color: white;
   color: black;
+  background-color: white;
 }
 
 .close-btn img{
@@ -85,13 +96,14 @@ button {
   top: 7.2%;
   left: 70%;
   background-color: transparent; /* Green */
-   border: 1px solid red;
+   border: 1px solid black;
    border-radius: 37px;
-   color: grey;
+   color: white;
    padding: 8px 20px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 12;
    cursor: pointer;
+   background-color: black;
 }
