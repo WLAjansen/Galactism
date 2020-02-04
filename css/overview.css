@@ -1,0 +1,53 @@
+.middle-section {
+  position: relative;
+  top: 55%;
+  left: 7%;
+}
+
+.card {
+  top: 20%;
+}
+
+button {
+  margin-top: 18px;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  margin-left: 0;
+}
+
+.iphone-design {
+  height: 667px;
+}
+
+.row {
+  position: relative;
+  width: 317px;
+}
+
+.row img {
+  height: 80px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
