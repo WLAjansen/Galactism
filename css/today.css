@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 html, body, {
   color: black !important;
   background-color: black;
@@ -5,13 +7,13 @@ html, body, {
 
 h1 {
 margin: 0;
-color: black;
+color: white;
 }
 
 .iphone-design {
   height: 1100px;
   width: 375px;
-  background-color: white;
+  background-color: black;
 }
 
 a {
@@ -98,12 +100,12 @@ button {
   background-color: transparent; /* Green */
    border: 1px solid black;
    border-radius: 37px;
-   color: white;
+   color: black;
    padding: 8px 20px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 12;
    cursor: pointer;
-   background-color: black;
+   background-color: white;
 }
