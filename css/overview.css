@@ -9,7 +9,8 @@
 }
 
 .btn-low-right {
-
+ position: absolute;
+ right: 10%;
 }
 
 button {

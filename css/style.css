@@ -110,7 +110,7 @@ label {
 .main-header-patients {
   position: absolute;
   top: 5%;
-  left: 5%;
+  left: 16%;
 }
 
 
@@ -118,7 +118,7 @@ label {
 
 .patients {
   position: absolute;
-  top: 15%;
+  top: 20%;
   height: 100px;
   width: 100px;
 }
